@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-tailwindcss-vRUan5qaij)
 - Live Site URL: [live](https://robotamozepoczekac.github.io/nft-preview-card-component/)
 
 ### Built With
