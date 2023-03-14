@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    html {
+        font-family: 'Outfit', system-ui, sans-serif;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
+
+.custom-hover::after {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 255, 247, .5) no-repeat url(./images/icon-view.svg) center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .2s;
+    cursor: pointer;
+}
+
+@media (max-width: 639px) {
+    @layer base {
+        body {
+            font-size: 16px;
+        }
+    }
+}
